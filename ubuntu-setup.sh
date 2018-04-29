@@ -13,9 +13,9 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | 
 sudo nvm install 8.11.1
 
 # install atom
-sudo add-apt-repository ppa:webupd8team/atom -y
-sudo update
-sudo apt install atom
+#sudo add-apt-repository ppa:webupd8team/atom -y
+#sudo update
+#sudo apt install atom
 
 # install gimp
 sudo add-apt-repository ppa:otto-kesselgulasch/gimp
