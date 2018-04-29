@@ -22,7 +22,7 @@ sudo add-apt-repository ppa:otto-kesselgulasch/gimp
 sudo apt update
 sudo apt install gimp
 
-# config git and my setup repo
+# configure git and my setup repo
 git config --global user.email "jraego@gmail.com"
 git config --global user.name "jraego"
 mkdir my-setup-files
