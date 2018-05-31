@@ -2,7 +2,7 @@ sudo apt update
 sudo apt install vim -y
 sudo apt install curl -y
 sudo apt install unity-tweak-tool -y
-sudo apt install filezilla
+sudo apt install filezilla -y
 sudo apt install git -y
 sudo apt install apache2 -y
 sudo apt install php7.0 libapache2-mod-php7.0 -y
@@ -16,7 +16,7 @@ sudo apt install gimp
 
 # install nvm and node
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
-sudo nvm install 8.11.1
+nvm install 8.11.1
 
 # install mongodb
 sudo apt adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
