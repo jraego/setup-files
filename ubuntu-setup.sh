@@ -33,10 +33,7 @@ sudo apt install -y mongodb-org
 # configure git and my setup repo
 git config --global user.email "jraego@gmail.com"
 git config --global user.name "jraego"
-mkdir my-setup-files
-cd my-setup-files
 git clone https://github.com/jraego/setup-files
-cd ~
 ln my-setup-files/.vimrc .vimrc
 
 sudo /etc/init.d/apache2 restart
